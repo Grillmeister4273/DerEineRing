@@ -27,12 +27,11 @@ namespace DerEineRing
             
             int summe = 0;
             int anzahlEintraege = 0;
-            int eingabe;
             Console.WriteLine("Bitte Geben Sie eine Zahl ein: ");
             do
             {
                 // Eingabe abfragen
-              int.TryParse(Console.ReadLine(), out eingabe);
+              int.TryParse(Console.ReadLine(), out int eingabe);
                 Console.Clear();
                 Console.WriteLine("Bitte Geben Sie eine gültige Zahl ein: ");
                 // Eingabe prüfen
