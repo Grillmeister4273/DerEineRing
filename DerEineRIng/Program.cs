@@ -24,8 +24,7 @@ using System.Security.Cryptography.X509Certificates;
 //Beleidigung.Start();
 //Aufgabe_23.Start();
 //Exponent.Start();
-Rechner.Start();
-
+//Rechner.Start();
 
 
 
