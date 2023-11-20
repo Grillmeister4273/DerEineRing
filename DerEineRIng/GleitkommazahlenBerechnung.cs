@@ -15,7 +15,7 @@ namespace DerEineRing
             for (int i = 0; i < ersteZahlen.Length; i++)
             {
                 float v = 0;
-                    bool b1 = float.TryParse(Console.ReadLine(), out v);
+                float.TryParse(Console.ReadLine(), out v);
                 ersteZahlen[i] = v;
             }
 

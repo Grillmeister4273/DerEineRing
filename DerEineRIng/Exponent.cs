@@ -10,16 +10,19 @@ namespace DerEineRing
     {
         public static void Start()
         {
+            bool lol = false;
             Console.WriteLine("Basis eingeben:");
-            double a = double.Parse(Console.ReadLine());
+            double a = 0;
+                lol = double.TryParse(Console.ReadLine(), out a);
             Console.WriteLine("Exponent eingeben:");
-            int b = int.Parse(Console.ReadLine());
+            int b = 0;
+               lol = int.TryParse(Console.ReadLine(), out b);
 
             double result = 1;
             for (int i = 0; i < b; i++)
             {
                 result *= a;
-            }
+            } 
 
 
             Console.WriteLine("a^b = " + result);
