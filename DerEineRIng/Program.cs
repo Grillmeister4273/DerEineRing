@@ -1,0 +1,40 @@
+﻿// See https://aka.ms/new-console-template for more information
+using ConsoleApp1;
+using DerEineRing;
+using System.Security.Cryptography.X509Certificates;
+
+//Folie67.Start();
+//Aufgabe7.Start();
+//Polizei.Start();
+//name.Start();
+//Sandbox.Start();
+//Bert.Start();
+//ifif.Start();
+//exp1.Start();
+//donut.Start();
+//Zahlen.Start();
+//Farben.Start();
+//DADjokel.Start();
+//password.Start();
+//passss.Start();
+//ARA_ARA.Start();
+//zahlennn.Start();
+//GleitkommazahlenBerechnung.Start();     //Aufgabe 12
+//StringBackwards.Start();                //Aufgabe 11
+//Beleidigung.Start();
+//Aufgabe_23.Start();
+//Exponent.Start();
+Rechner.Start();
+
+
+
+
+
+
+
+
+
+
+
+
+
