@@ -1,9 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// See httconsole-template for more information
 using ConsoleApp1;
 using DerEineRing;
 using System.Security.Cryptography.X509Certificates;
 
-//Folie67.Start();
+//Folie67.Start();ps://aka.ms/new-
 //Aufgabe7.Start();
 //Polizei.Start();
 //name.Start();
@@ -25,7 +25,8 @@ using System.Security.Cryptography.X509Certificates;
 //Aufgabe_23.Start();
 //Exponent.Start();
 //Rechner.Start();
-DoWhile.Start();
+//DoWhile.Start();
+Komprimierte_Eingabe_.Start();
 
 
 
