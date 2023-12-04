@@ -26,9 +26,9 @@ using System.Security.Cryptography.X509Certificates;
 //Exponent.Start();
 //Rechner.Start();
 //DoWhile.Start();
-Komprimierte_Eingabe_.Start();
-
-
+//Komprimierte_Eingabe_.Start();
+//BubbleSort.Start();
+Sorting.Start();
 
 
 
