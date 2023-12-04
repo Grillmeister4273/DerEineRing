@@ -16,7 +16,7 @@ namespace DerEineRing
             double x = Convert.ToDouble(Console.ReadLine());
             Console.Write("zweite Zahl: ");
             double y = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Rechenzeichen (+,-,+,%): ");
+            Console.Write("Rechenzeichen (+,-,*,%): ");
             string rechenzeichen = Console.ReadLine();
 
             double ergebnis = 0;
