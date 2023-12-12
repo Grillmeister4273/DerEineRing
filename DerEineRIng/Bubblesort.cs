@@ -45,7 +45,9 @@ class BubbleSort
                 // Iteration über das Array von hinten nach vorne
                 for (int j = array.Length - 1; j > i; j--)
                 {
-                    // Vergleich der beiden aktuellen Elemente
+                // In jeder Iteration der inneren Schleife werden die beiden aktuellen Elemente miteinander verglichen.
+                // Die Variable array[j] enthält den Wert des Elements an der Position j im Array.
+                // Die Variable array[j - 1] enthält den Wert des Elements an der Position j - 1 im Array.
                     if (array[j] < array[j - 1])
                     {
                         // Tausch der beiden Elemente
