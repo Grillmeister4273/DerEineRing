@@ -28,7 +28,8 @@ using System.Security.Cryptography.X509Certificates;
 //DoWhile.Start();
 //Komprimierte_Eingabe_.Start();
 //BubbleSort.Start();
-Sorting.Start();
+//Sorting.Start();
+ZusatzaufgabeDez.Start();
 
 
 
