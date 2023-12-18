@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,11 +34,14 @@ namespace DerEineRing
                 return new string(reversed);
         }   //gibt den String umgekehrt zurück
 
-        public static int Durchschnitt ()
+        public static int Maximum (int[] a) { return int.MaxValue; }
+        public static int Minimum(int[] a) { return int.MinValue; }
 
-
-
-
+        public static int Groese (List<int> a)
+        {
+            int b = int.Parse(List, a);
+            return b;
+        }
 
 
 

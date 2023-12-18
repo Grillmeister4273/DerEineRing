@@ -29,9 +29,9 @@ using System.Security.Cryptography.X509Certificates;
 //Komprimierte_Eingabe_.Start();
 //BubbleSort.Start();
 //Sorting.Start();
-ZusatzaufgabeDez.Start();
-Array_Int.Start();
-
+//ZusatzaufgabeDez.Start();
+//Array_Int.Start();
+//Meth.Start();
 
 
 
