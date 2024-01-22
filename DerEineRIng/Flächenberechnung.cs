@@ -9,33 +9,57 @@ namespace DerEineRing
     internal class Flächenberechnung
     {
         private static double input;
+        private static ShapeType selection;
+
+        public enum ShapeType
+        {
+            Rectangle=1,
+            Triangle=2,
+            Circle=3,
+            Brake=4
+        }
 
         public static void Start()
         {
-            
-            Console.WriteLine("Which area would you like to calculate?");
-            Console.WriteLine("Enter 1 for a rectangle, 2 for a triangle, and 3 for a circle.");
-            if (!int.TryParse(Console.ReadLine(), out int selection))
-            {
-                Console.WriteLine("Invalid input. Please enter a number.");
-                return;
-            }
+            bool continueCalculating = true;
 
-            switch (selection)
+            while (continueCalculating)
             {
-                case 1:
+                Console.WriteLine("Which area would you like to calculate?");
+                Console.WriteLine("Enter 1 for a rectangle, 2 for a triangle, 3 for a circle, or 4 to exit.");
+                if (!int.TryParse(Console.ReadLine(), out int selection))
+                {
+                    Console.WriteLine("Invalid input. Please enter a number.");
+                    continue;
+                }
+                switch (selection)
+            {
+                case (int)ShapeType.Rectangle:
                     CalculateRectangleArea();
                     break;
-                case 2:
+                case (int)ShapeType.Triangle:
                     CalculateTriangleArea();
                     break;
-                case 3:
+                case (int)ShapeType.Circle:
                     CalculateCircleArea();
                     break;
+                case (int)ShapeType.Brake:
+                     continueCalculating = false;
+                       break;
                 default:
-                    Console.WriteLine("Invalid selection. Please enter 1, 2, or 3.");
+                    Console.WriteLine("Invalid selection. Please enter 1, 2, 3 or 4.");
                     break;
             }
+
+                
+                   
+                   
+                
+            }
+
+
+            
+
         }
 
         private static void CalculateRectangleArea()
@@ -44,8 +68,8 @@ namespace DerEineRing
             double a = GetUserInput();
             Console.Write("What is the width (b)? ");
             double b = GetUserInput();
-            double rectangleArea = a * b;
-            Console.WriteLine($"The area of the rectangle is: {rectangleArea}");
+            double c = a * b;
+            Console.WriteLine("The area of the rectangle is: "+c);
         }
 
         private static void CalculateTriangleArea()
