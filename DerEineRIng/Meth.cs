@@ -37,11 +37,7 @@ namespace DerEineRing
         public static int Maximum (int[] a) { return int.MaxValue; }
         public static int Minimum(int[] a) { return int.MinValue; }
 
-        public static int Groese (List<int> a)
-        {
-            int b = int.Parse(List, a);
-            return b;
-        }
+     
 
 
 
