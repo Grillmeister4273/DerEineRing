@@ -32,8 +32,8 @@ using System.Security.Cryptography.X509Certificates;
 //ZusatzaufgabeDez.Start();
 //Array_Int.Start();
 //Meth.Start();
-Flächenberechnung.Start();
-
+//Flächenberechnung.Start();
+hash.Start();
 
 
 
